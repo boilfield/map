@@ -11,7 +11,7 @@
 
 let geomURL ="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLLPIPC3OAI2KA537g5xH6qJtdtCFWr9g8BFe3nCcsQ5QZHtstJAt9zVp0dnBWW3TWu40N0WCZh_L6/pub?gid=0&single=true&output=csv";
 
-let pointsURL ="https://docs.google.com/spreadsheets/d/e/2PACX-1vTI0Rvn-WPqx8i5TXvteTrKvqTcyHxNd1War2iMHO_Ez9Sjgq7YjW3V6BXHC5ePUkLcJZjVFefp5hVz/pub?gid=1503930312&single=true&output=csv";
+let pointsURL ="";
 
 window.addEventListener("DOMContentLoaded", init);
 
@@ -24,7 +24,7 @@ let panelID = "my-info-panel";
  */
 function init() {
   // Create a new Leaflet map centered on the continental US
-  map = L.map("map").setView([23.78786, 90.35070], 13);
+  map = L.map("map").setView([23.725, 89.583], 7);
 
   // This is the Carto Positron basemap
   L.tileLayer(
